@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<title>ADA ❤️ IPIN</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    display: none;
+}
+
+.start {
+    cursor: pointer;
+    font-size: 28px;
+    background: rgba(255,255,255,0.25);
+    padding: 25px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.start:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.heart {
+    font-size: 40px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="start" onclick="openLove()">
+    💖 ចុចទីនេះ 💖
+</div>
+
+<div class="container" id="loveBox">
+    <h1>សេចក្តីស្រឡាញ់</h1>
+    <p>
+        ADA គឺជាមនុស្សដែល IPIN ស្រឡាញ់ជាងគេក្នុងជីវិត។<br>
+        រាល់ពេល IPIN នឹកដល់ ADA បេះដូងគាត់ពោរពេញដោយសុភមង្គល។<br><br>
+
+        IPIN សន្យាថានឹងថែរក្សា និងស្រឡាញ់ ADA<br>
+        មិនថាពេលសប្បាយ ឬពេលលំបាកក្តី។<br><br>
+
+        សេចក្តីស្រឡាញ់រវាង ADA និង IPIN<br>
+        នឹងនៅជាមួយគ្នារហូតអស់កល្បជានិច្ច។
+    </p>
+    <div class="heart">❤️❤️❤️</div>
+</div>
+
+<script>
+function openLove() {
+    document.querySelector('.start').style.display = 'none';
+    document.getElementById('loveBox').style.display = 'block';
+}
+</script>
+
+</body>
+</html>
